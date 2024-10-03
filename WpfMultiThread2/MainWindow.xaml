@@ -1,0 +1,19 @@
+﻿<Window x:Class="WpfMultiThread2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfMultiThread2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="591.297" Width="525">
+    <StackPanel>
+        <Button Content="Non Anon method thread" Height="50" Width="200" Click="Button_Click"></Button>
+        <Button Content="Anon method thread" Height="50" Width="200" Click="Button_Click_1"></Button>
+        <Button Content="Anon method thread with shared variable" Height="50" Width="300" Click="Button_Click_2"></Button>
+        <Button Content="method thread with a parameter" Height="50" Width="300" Click="Button_Click_3"></Button>
+        <Button Content="careful example !, method thread with shared variable" Height="50" Width="300" Click="Button_Click_4"></Button>
+        <Button Content="Fix!, method thread with shared variable" Height="50" Width="300" Click="Button_Click_5"></Button>
+        <Button Content="Misc method thread" Height="50" Width="300" Click="Button_Click_6"></Button>
+
+    </StackPanel>
+</Window>
